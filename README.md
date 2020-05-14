@@ -1,1 +1,3 @@
-# ds-algorithms
+# Data Strucutre & Algorithms
+
+ Learn by doing ....
