@@ -1,4 +1,4 @@
-bbCount = (arr) =>{
+bbSort = (arr) =>{
     if(arr.length <=1) return arr;
     for(let i = 0; i<arr.length; ++i){
         for(let j = 0; j<arr.length; ++j){
@@ -11,9 +11,9 @@ bbCount = (arr) =>{
 }
 
 let arr = [6,5,4,3,2,1]
-console.log(bbCount(arr))
+console.log(bbSort(arr))
 
-const BubbleCount ={
-    bbCount,
+const Sorting ={
+    bbSort,
 }
-module.exports = BubbleCount;
+module.exports = Sorting;

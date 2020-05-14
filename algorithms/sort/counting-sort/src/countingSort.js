@@ -35,8 +35,8 @@ console.log(countingSort(arr))
 
 
 
-const CountingSort = {
+const Sorting = {
     countingSort,
 }
 
-module.exports = CountingSort;
+module.exports = Sorting;

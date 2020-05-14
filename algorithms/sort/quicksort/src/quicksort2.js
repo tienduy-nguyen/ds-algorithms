@@ -20,16 +20,16 @@ function partition(arr, left, right) {
   return i;
 }
 
-function quicksort(arr, left = 0, right = arr.length - 1) {
+function quickSort(arr, left = 0, right = arr.length - 1) {
   if (arr.length > 1) {
     let index = partition(arr, left, right);
-    if (left < index - 1) quicksort(arr, left, index - 1);
-    if (index < right)quicksort(arr, index, right);
+    if (left < index - 1) quickSort(arr, left, index - 1);
+    if (index < right)quickSort(arr, index, right);
   }
  return arr;
 }
 
-const Quicksort = {
-  quicksort,
+const Sorting = {
+  quickSort,
 };
-module.exports = Quicksort;
+module.exports = Sorting;

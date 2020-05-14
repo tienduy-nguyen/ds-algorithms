@@ -16,8 +16,8 @@ selectionSort = (arr) =>{
 let arr = [8,6,5,3,9,4,2,3,1,8,25];
 console.log(selectionSort(arr))
 
-const SelectionSort = {
+const Sorting = {
     selectionSort
 }
 
-module.exports = SelectionSort;
+module.exports = Sorting;
