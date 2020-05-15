@@ -12,6 +12,12 @@ quicksSrt = (arr) => {
   return [].concat(quickSort(arrLess), pivot, quickSort(arrGreeter));
 };
 
+validateCollection = (datalist) =>{
+  if(arguments.length === 0 || !Array.isArray(this.arr)) {
+      throw new Error('Input must be an array!');
+  }
+};
+
 // const ex1 = [10,28,32,23,20,1,2,589,35,20,47,23,56,12,34,11,1,6,9,3,5,7,15];
 // console.log(quickSort(ex1))
 
