@@ -4,19 +4,19 @@ function mergeSort(arr) {
   let middle = Math.floor(arr.length  / 2);
   let right = [...arr];
   let left = right.splice(0, middle);
-  console.log('*********************************')
-  console.log('left:', left)
-  console.log('right:', right)
-  console.log('*********************************')
+  // console.log('*********************************')
+  // console.log('left:', left)
+  // console.log('right:', right)
+  // console.log('*********************************')
   return merge(mergeSort(left), mergeSort(right));
 }
 
 // Merges 2 sorted arrays
 function merge(left, right) {
   let result = [];
-  console.log('-----------------------------')
-  console.log('arrLeft:', left)
-  console.log('arrRight:', right)
+  // console.log('-----------------------------')
+  // console.log('arrLeft:', left)
+  // console.log('arrRight:', right)
 
   // In case if arrays are not of size 1.
   while (left.length && right.length) {

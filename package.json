@@ -1,0 +1,23 @@
+{
+  "name": "ds-algorithms",
+  "version": "1.0.0",
+  "description": "Learn by doing ....",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tienduy-nguyen/ds-algorithms.git"
+  },
+  "author": "TienDuy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tienduy-nguyen/ds-algorithms/issues"
+  },
+  "homepage": "https://github.com/tienduy-nguyen/ds-algorithms#readme"
+}

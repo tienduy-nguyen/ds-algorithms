@@ -1,4 +1,4 @@
-quicksSrt = (arr) => {
+quickSort = (arr) => {
   if (arr.length <= 1) return arr;
   let indexPivot = Math.floor((0 + arr.length - 1) / 2);
   let pivot = arr.splice(indexPivot, 1);
