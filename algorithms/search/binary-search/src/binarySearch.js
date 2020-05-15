@@ -6,11 +6,15 @@ let binarySeach = (arr,search) =>{
     let upperBound = arr.length-1;
     let lowerBound = 0;
     while(lowerBound < upperBound ){
-        let middle = lowerBound + Math.round((upperBound  - lowerBound)/2);
-        let current = arr[middle];
-        if(current = search ){
+        let middle = Math.floor(lowerBound + (upperBound  - lowerBound)/2);
+        let valueMiddle = arr[middle];
+        // console.log('-----------');
+        // console.log(`Middle = ${middle}: ValueMiddle = ${valueMiddle}`)
+        // console.log(`Lowwer = ${lowerBound}`)
+        // console.log(`Upper = ${upperBound}`)
+        if(valueMiddle === search ){
             return middle;
-        } else if(current > search){
+        } else if(valueMiddle > search){
             upperBound = middle;
         } else{
             lowerBound = middle + 1.
@@ -20,7 +24,7 @@ let binarySeach = (arr,search) =>{
 }
 
 let arr = [0,2,4,6,8,10];
-console.log(binarySeach(arr,6))
+console.log(binarySeach(arr,0))
 
 const Search = {
     binarySeach
