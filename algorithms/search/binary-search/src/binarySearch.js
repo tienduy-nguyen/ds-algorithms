@@ -31,3 +31,16 @@ const Search = {
 }
 
 module.exports = Search
+
+
+
+// Time complexity
+// Methods on a BST always start at the root node and work their way down, due to this, 
+// the maximum time each operation takes is based on how high the tree is. 
+// For example a tree with n nodes where there are no right children will take O(n) time, 
+// a complete BST however (every level except the last is completely filled,
+// with nodes on the last as left as possible) has the worst case time of O(logn).
+// delete: Linear — O(n), or O(log n) in average case
+// insert: Linear — O(n), or O(log n) in average case
+// contains: Linear — O(n), or O(log n) in average case
+// depthFirstLog: Linear — O(n), or O(log n) in average case
