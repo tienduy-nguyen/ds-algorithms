@@ -1,3 +1,3 @@
-# Data Strucutre & Algorithms
+# Data Structure & Algorithms
 
  Learn by doing ....
