@@ -1,12 +1,12 @@
 insertionSort = (arr) => {
   if (arr.length <= 1) return arr;
   let value;
-  for (let i = 1; i < arr.length; i++) {
+  for (let i = 1; i < arr.length; ++i) {
     value = arr[i];
     j = i - 1;
     while (j >= 0 && arr[j] > value) {
       arr[j + 1] = arr[j];
-      j--;
+      --j;
     }
     arr[j + 1] = value;// last
   }
