@@ -22,3 +22,7 @@ const Sorting = {
   }
   
 module.exports = Sorting;
+
+
+// Name	            Best	Average	Worst	Memory	Stable	Comments
+// Insertion sort	  n	    n2	    n2	  1	      Yes	

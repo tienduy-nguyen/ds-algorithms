@@ -1,6 +1,7 @@
 // Shell sort is an additional algrorithm for insertion sort
 // It devided an array to multiples gaps and compare them together 
 // Explanification on: https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/shell-sort
+// https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/shell-sort
 
 //use this insertion sort when working with shell sort
 insertionSortGap = (arr,start, gap) =>{
@@ -39,3 +40,7 @@ const Sorting = {
 
 module.exports  = Sorting;
 
+
+// Complexity
+// Name	Best	Average	Worst	Memory	Stable	Comments
+// Shell sort	n log(n)	depends on gap sequence	n (log(n))2	1	No	

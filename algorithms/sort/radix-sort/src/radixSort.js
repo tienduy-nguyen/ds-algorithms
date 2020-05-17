@@ -1,46 +1,34 @@
 //Source to understand radix sort
 //https://viblo.asia/p/tim-hieu-ve-radix-sort-va-cach-implement-thuat-toan-nay-trong-swift-E375zk0PKGW
-//https://gist.github.com/StBean/4af58d09021899f14dfa585df6c86df6
 
-/* A Queue based datastructure for implementing our radix algorithm.
-Sorting will modify the existing input data and return the sorted data */
-function Queue(){      
-    this.dataStore = [];
-    this.enqueue   = enqueue;
-    this.dequeue   = dequeue;
-    this.isEmpty   = isEmpty;
-};
-function enqueue(element){
-    this.dataStore.push(element);
-};
-function dequeue(){
-    if(this.dataStore.length == 0){
-      return false;
-    } else {
-      return this.dataStore.shift();
-    }
-};
-function isEmpty(){
-    if(this.dataStore.length == 0){
-      return true;
-    } else {
-      return false;
-    }
-}; 
-
-let radixSort = (arr) =>{
-    if(arr.length <= 1) return arr;
-    let bin  = []; //Used to hold our array of queues
-    let digIndex = []; //This will be used to hold mapping values for remapping data elements to theirs proper index location
-
-
-    let max = Math.max(...arr);
-    let time = 0;
-    while (Math.floor(max) > 0){
-        ++time;
-        max /= 10;
-    }
-
-   
+//Helper function
+//Return the digit in num at the given place value
+let getDigit = (num, i)=>{
+  return Math.floor(Math.abs(num)/Math.pow(10,i)) % 10;
 }
-radixSort([1,20])
+
+//Return the number of digit in num
+let digitCount = (num) =>{
+  if(num === 0) return 1;
+  return Math.floor(Math.log10(num))+1;
+}
+
+//Given an array of number, returns the number of digits in the largest numbers in the list
+let mostDigits = (nums) =>{
+  return digitCount(Math.max(...nums));
+}
+
+//Sort array
+let radixSort = (nums) =>{
+  let maxDigits = mostDigits(nums);
+  for(let k=0; k<maxDigits; ++k){
+    let digitBuckets = Array.from({length: 10}, ()=>[]);
+    for(let i=0; i<nums.length; ++i){
+      let digit = getDigit(nums[i],k);
+      digitBuckets[digit].push(nums[i]);
+    }
+    nums = [].concat(...digitBuckets)
+  }
+  return nums;
+}
+console.log(radixSort([50,132,2,37898995,2246882,2233,253,64789,4666]));

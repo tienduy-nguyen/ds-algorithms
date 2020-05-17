@@ -41,3 +41,9 @@ const Sorting = {
 }
 
 module.exports = Sorting;
+
+
+
+// Complexity
+// Name	Best	Average	Worst	Memory	Stable	Comments
+// Merge sort	n log(n)	n log(n)	n log(n)	n	Yes	
