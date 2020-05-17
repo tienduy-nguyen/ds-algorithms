@@ -71,6 +71,7 @@ class SinglyLinkedList {
         return current;
     }
     set(index, val) {
+        if(index <0 || index >= this.length) return false;
         let foundNode = this.get(index);
         if (foundNode) {
             foundNode.val = val;
@@ -84,6 +85,7 @@ class SinglyLinkedList {
         if (index === this.length) return !!this.push(val);
         let newNode = new Node(val);
         let prev = this.get(index - 1);
+        if(!prev)return false;
         newNode.next = prev.next;
         prev.next = newNode;
         this.length++;
@@ -96,6 +98,7 @@ class SinglyLinkedList {
         let prev = this.get(index - 1);
         let removed = prev.next;
         prev.next = removed.next;
+        this.length--;
         return removed;
     }
     reverse(){
