@@ -36,13 +36,13 @@
 
 ### Some patterns of algorithms
 
-|  #  | Solving pattern &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;         |
-| :-: | :------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | [Anagrams](https://github.com/tienduy-nguyen/ds-algorithms/blob/master/algorithms/solving-pattern/anagrams.js)                   |
-| 02  | [Count Unique Value](https://github.com/tienduy-nguyen/ds-algorithms/blob/master/algorithms/solving-pattern/countUniqueValue.js) |
-| 03  | [Frequency Counter](https://github.com/tienduy-nguyen/ds-algorithms/blob/master/algorithms/solving-pattern/frequencyCounter.js)  |
-| 04  | [Sliding Window](https://github.com/tienduy-nguyen/ds-algorithms/blob/master/algorithms/solving-pattern/slidingWindow.js)        |
-| 05  | [Sum Zero](https://github.com/tienduy-nguyen/ds-algorithms/blob/master/algorithms/solving-pattern/sumZero.js)                    |
+|  #  | Solving pattern &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | [Anagrams](https://github.com/tienduy-nguyen/ds-algorithms/blob/master/algorithms/solving-pattern/anagrams.js)                         |
+| 02  | [Count Unique Value](https://github.com/tienduy-nguyen/ds-algorithms/blob/master/algorithms/solving-pattern/countUniqueValue.js)       |
+| 03  | [Frequency Counter](https://github.com/tienduy-nguyen/ds-algorithms/blob/master/algorithms/solving-pattern/frequencyCounter.js)        |
+| 04  | [Sliding Window](https://github.com/tienduy-nguyen/ds-algorithms/blob/master/algorithms/solving-pattern/slidingWindow.js)              |
+| 05  | [Sum Zero](https://github.com/tienduy-nguyen/ds-algorithms/blob/master/algorithms/solving-pattern/sumZero.js)                          |
 
 ### Some simples excercies
 
@@ -56,12 +56,12 @@
 
 ## Data Structure
 
-|  #  | Data Structure &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| :-: | :----------------------------------------------------------------------------------------------------------------------------- |
-| 01  | [Linked List](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/linked-list)                          |
-| 02  | [Queue](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/queue)                                      |
-| 03  | [Stack](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/stack)                                      |
-| 04  | Tree                                                                                                                           |
-| 05  | Graph                                                                                                                          |
+|  #  | Data Structure &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; |
+| :-: | :----------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | [Linked List](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/linked-list)                                |
+| 02  | [Queue](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/queue)                                            |
+| 03  | [Stack](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/stack)                                            |
+| 04  | Tree                                                                                                                                 |
+| 05  | Graph                                                                                                                                |
 
 On road ...
