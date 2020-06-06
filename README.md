@@ -7,7 +7,7 @@
 ---
 
 <div align="center">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
+  <img src="https://img.shields.io/badge/Licence-MIT-green" alt="License">
   <img src="https://img.shields.io/github/commit-activity/y/tienduy-nguyen/ds-algorithms" alt="Activities">
   
 </div>
