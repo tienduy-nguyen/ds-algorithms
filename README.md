@@ -1,7 +1,7 @@
 # Data Structure & Algorithms in Javascript
 
 <p align="center">
-  <img src="https://i.imgur.com/qAUgBFG.png" alt="" />
+  <img src="https://i.imgur.com/qAUgBFG.png" alt="logo" />
 </p>
 
 ---
@@ -56,12 +56,12 @@
 
 ## Data Structure
 
-|  #  | Data Structure &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; |
-| :-: | :----------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | [Linked List](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/linked-list)                                |
-| 02  | [Queue](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/queue)                                            |
-| 03  | [Stack](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/stack)                                            |
-| 04  | Tree                                                                                                                                 |
-| 05  | Graph                                                                                                                                |
+|  #  | Data Structure &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | [Linked List](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/linked-list)                                        |
+| 02  | [Queue](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/queue)                                                    |
+| 03  | [Stack](https://github.com/tienduy-nguyen/ds-algorithms/tree/master/data-structure/stack)                                                    |
+| 04  | Tree                                                                                                                                         |
+| 05  | Graph                                                                                                                                        |
 
 On road ...
