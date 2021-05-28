@@ -1,4 +1,5 @@
 # Bo tri cuoc hop
+# https://www.youtube.com/watch?v=N-ZfCOclB4I
 # vd [[5,25], [10,30], [30,40]] -> output count: 2
 # [[6, 13], [0, 5]] -> output count: 1
 
